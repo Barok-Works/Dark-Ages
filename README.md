@@ -32,54 +32,54 @@ Passando na idade das trevas, em um mundo dominado pelo caos criado pelos 4 cava
   /characters
   /maps
 /src
+  /character
+    /inventario
+    /status
+  /classes
+    /auquimista
+    /ceifador
+    /clero
+    /forjador
+    /medico
   /core
     /errors
     /save
-  /character
-    /status
-    /inventario
-  /classes
-    /Médico
-    /Ceifador
-    /Auquimista
-    /Forjador
-    /Clero
-  /villains
-    /Fome
-    /Peste
-    /Guerra
-    /Morte
-    /Rei
-  /NPCs
+  /history
+    /chapter-1 # Introduction
+      /boss
+      /miniBoss
+      /puzzle1
+      /puzzle2
+    /chapter-2 # Fome
+      /boss
+      /miniBoss
+      /puzzle1
+      /puzzle2
+    /chapter-3 # Peste
+      /boss
+      /miniBoss
+      /puzzle1
+      /puzzle2
+    /chapter-4 # Guerra
+      /boss
+      /miniBoss
+      /puzzle1
+      /puzzle2
+    /chapter-5 # Morte
+      /boss
+      /miniBoss
+      /puzzle1
+      /puzzle2
   /interface
     /informations
     /map
-  /history
-    /chapter-1 # Introduction
-      /puzzle
-      /miniBoss
-      /puzzle
-      /booss
-    /chapter-2 # Fome
-      /puzzle
-      /miniBoss
-      /puzzle
-      /booss
-    /chapter-3 # Peste
-      /puzzle
-      /miniBoss
-      /puzzle
-      /booss
-    /chapter-4 # Guerra
-      /puzzle
-      /miniBoss
-      /puzzle
-      /booss
-    /chapter-5 # Morte
-      /puzzle
-      /miniBoss
-      /puzzle
-      /booss
+  /NPCs
+  /villains
+    /fome
+    /guerra
+    /morte
+    /peste
+    /rei
 ```
 
 ## Developers
