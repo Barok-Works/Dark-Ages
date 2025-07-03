@@ -46,30 +46,15 @@ Passando na idade das trevas, em um mundo dominado pelo caos criado pelos 4 cava
     /save
   /history
     /chapter-1 # Introduction
-      /boss
-      /miniBoss
-      /puzzle1
-      /puzzle2
     /chapter-2 # Fome
-      /boss
-      /miniBoss
-      /puzzle1
-      /puzzle2
     /chapter-3 # Peste
-      /boss
-      /miniBoss
-      /puzzle1
-      /puzzle2
     /chapter-4 # Guerra
-      /boss
-      /miniBoss
-      /puzzle1
-      /puzzle2
     /chapter-5 # Morte
+    /chapter-interface
       /boss
+      /map
       /miniBoss
-      /puzzle1
-      /puzzle2
+      /puzzle
   /interface
     /informations
     /map
