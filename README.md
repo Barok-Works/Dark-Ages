@@ -43,6 +43,7 @@ Passando na idade das trevas, em um mundo dominado pelo caos criado pelos 4 cava
     /medico
   /core
     /errors
+    /main
     /save
   /history
     /chapter-1 # Introduction
