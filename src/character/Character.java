@@ -9,8 +9,16 @@ public class Character {
     private int defesaBase;
     private int exp;
 
-    public Character(){
+    public Character(){}
 
+    public Character(String nome, int level, int vida, int mana, int danoBase, int defesaBase, int exp){
+        this.nome = nome;
+        this.level = level;
+        this.vida = vida;
+        this.mana = mana;
+        this.danoBase = danoBase;
+        this.defesaBase = defesaBase;
+        this.exp = exp;
     }
 
     public int atacar() {
@@ -23,13 +31,11 @@ public class Character {
         }
     }
 
-    public void usar_magia() {
-        
-    }
+    public void usar_magia() {}
 
     public void descansar() {
-        this.vida += 80*this.vida/100;
-        this.mana += 80*this.mana/100;
+        this.vida += 50*this.vida/100;
+        this.mana += 50*this.mana/100;
     }
 
     public void ganhar_exp (int exp){
