@@ -1,9 +1,10 @@
 package core.main;
-import character.Character;
+
+import interfaces.map.Map;
 
 public class Main {
     public static void main(String[] args) {
-        Character character = new Character();
-        character.exibir_detalhes();
+        Map map = new Map();
+        map.show();
     }
 }
